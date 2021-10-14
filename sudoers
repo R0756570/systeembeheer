@@ -13,7 +13,8 @@ Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 # Host alias specification
 
 # User alias specification
-
+check ALL=NOPASSWD: /usr/lib/nagios/plugins/check_apt
+check ALL=NOPASSWD: /usr/sbin/arp
 # Cmnd alias specification
 
 # User privilege specification
