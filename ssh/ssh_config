@@ -17,7 +17,8 @@
 # ssh_config(5) man page.
 
 Include /etc/ssh/ssh_config.d/*.conf
-
+Host leia.uclllabs.be
+	port 22345
 Host *
 #   ForwardAgent no
 #   ForwardX11 no
