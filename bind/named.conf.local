@@ -6,10 +6,14 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-//include "/etc/bind/named.conf.mrt-zones";
+include "/etc/bind/named.conf.mrt-zones";
 
 zone "mathieu-pechovitch.sb.uclllabs.be" {
 	type master;
 	file "/etc/bind/zones/db.mathieu-pechovitch.sb.uclllabs.be";
-	allow-transfer {193.191.176.254; 193.191.177.4; 127.0.0.1; 193.191.177.254; 193.191.177.174;};
+	allow-transfer {193.191.176.254; 193.191.177.4; 127.0.0.1; 193.191.177.254; 193.191.177.174; 193.191.177.143;};
+};
+zone "eline-schepers.sb.uclllabs.be" IN {
+	type slave;
+	masters {193.191.177.174;};
 };
