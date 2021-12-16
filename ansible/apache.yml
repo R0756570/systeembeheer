@@ -1,0 +1,64 @@
+---
+  - name: "Install latest apache2 version and configure virtual hosts"
+    hosts: localhost
+    connection: local
+    tasks:
+
+    - name: installing apache
+      apt: name=apache2 state=latest 
+
+    - name: starting Apache
+      service:
+              name: apache2
+              state: started
+
+    - name: creating page directory
+      file:
+        path: "/var/www/html"
+        state: directory
+        owner: "root"
+        mode: '0755'
+
+    - name: Creating index page
+      template:
+        src: "files/index.html.j2"
+        dest: "/var/www/html/index.html"
+
+    - name: config http virtualhosts
+      template:
+        src: "files/mainsite-ansible.conf.j2"
+        dest: "/etc/apache2/sites-available/mainsite-ansible.conf"
+
+    - name: Enabling virtualhosts
+      command: a2ensite mainsite-ansible.conf
+      notify:
+      - Restart Apache
+
+#voor ww1 en www2 maak ik gebruik van de al bestaande documenten van het labo HTTP ipv ze helemaal te recreeren (zie boven voor hoe ik een virtualhost vannaf het begin recreeer)
+    - name: configuration of www1.conf and www2.conf
+      template:
+        src: "files/www-ansible.conf.j2"
+        dest: "/etc/apache2/sites-available/www-ansible.conf"
+
+    - name: Enabling virtualhosts www1 & www2
+      command: a2ensite www-ansible.conf
+      notify:
+      - Restart Apache
+
+
+    - name: Disable default Apache site
+      shell: /usr/sbin/a2dissite 000-default.conf
+      when: true
+      notify: Reload Apache
+
+
+    handlers:
+    - name: Reload Apache
+      service:
+        name: apache2
+        state: reloaded
+
+    - name: Restart Apache
+      service:
+        name: apache2
+        state: restarted

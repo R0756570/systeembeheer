@@ -1,0 +1,29 @@
+---
+- hosts: localhost
+  become: sudo
+  tasks:
+  #inserting rules into network
+    - copy:
+        src: /etc/ansible/files/firewall/iptables.rules
+        dest: /etc/network/iptables.rules
+    - copy:
+        src: /etc/ansible/files/firewall/iptables.empty
+        dest: /etc/network/iptables.empty
+    - copy:
+        src: /etc/ansible/files/firewall/ip6tables.rules
+        dest: /etc/network/ip6tables.rules
+    - copy:
+        src: /etc/ansible/files/firewall/ip6tables.empty
+        dest: /etc/network/ip6tables.empty
+  #inserting script
+    - copy:
+        src: /etc/ansible/files/firewall/firewall-script
+        dest: /etc/init.d/firewall
+  #inserting commmands
+    - copy:
+        src: /etc/ansible/files/firewall/firewall.service
+        dest: /etc/systemd/system/firewall.service
+  #activating firewall
+    - name: start firewall
+      shell: systemctl stop firewall.service
+      shell: systemctl start firewall.service
