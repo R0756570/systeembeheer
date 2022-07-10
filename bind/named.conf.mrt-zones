@@ -3095,3 +3095,621 @@ zone "subzonegoph1a.mathieu-pechovitch.sb.uclllabs.be"{
 	file "/etc/bind/zones/subzonegoph1a.mathieu-pechovitch.sb.uclllabs.be";
 	notify yes;
 };
+
+zone "subzoneaht6sh.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneaht6sh.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonefae8su.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonefae8su.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneyaib6k.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneyaib6k.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneoomul3.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneoomul3.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonexa1gah.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonexa1gah.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonelieke2.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonelieke2.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeetho1.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeetho1.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneohd9ie.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneohd9ie.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneush6ie.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneush6ie.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneuok2of.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneuok2of.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonenaiz4j.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonenaiz4j.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonecoole4.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonecoole4.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneyia6wa.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneyia6wa.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneozie0n.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneozie0n.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonevop6ux.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonevop6ux.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonevahgh7.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonevahgh7.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonevei2ie.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonevei2ie.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneyohl9u.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneyohl9u.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonecaj9oo.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonecaj9oo.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonedi4mee.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonedi4mee.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeegh3r.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeegh3r.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneiew8uy.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneiew8uy.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonelu5cho.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonelu5cho.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneohf0qu.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneohf0qu.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonejoiqu9.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonejoiqu9.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeav9ie.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeav9ie.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonedo8cae.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonedo8cae.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonenoh7ep.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonenoh7ep.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneieb9ei.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneieb9ei.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneooshe2.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneooshe2.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonebeem6a.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonebeem6a.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonezai7ai.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonezai7ai.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonema0je6.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonema0je6.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonedahng7.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonedahng7.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonenulo9n.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonenulo9n.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneook4ye.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneook4ye.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeeboo7.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeeboo7.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonejee5oh.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonejee5oh.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonewi0die.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonewi0die.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonepax3ai.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonepax3ai.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneyi1hof.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneyi1hof.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneaw4lo4.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneaw4lo4.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneoch5ku.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneoch5ku.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneied1ci.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneied1ci.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneoongi8.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneoongi8.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonehue0ch.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonehue0ch.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonenee4ue.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonenee4ue.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonegoon8l.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonegoon8l.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneoovii8.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneoovii8.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneoe2jee.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneoe2jee.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneouj9we.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneouj9we.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonetie4ae.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonetie4ae.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonethaes5.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonethaes5.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonethoh7c.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonethoh7c.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonesha1ua.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonesha1ua.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonequu1po.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonequu1po.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonequo2ie.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonequo2ie.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonekie3ne.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonekie3ne.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonephue8v.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonephue8v.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneaisae0.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneaisae0.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonezoh0ae.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonezoh0ae.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonetheiw9.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonetheiw9.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonehiep7e.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonehiep7e.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonecaep1f.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonecaep1f.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneetohh6.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneetohh6.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonegai0ae.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonegai0ae.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeishu8.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeishu8.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneshath4.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneshath4.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonefe2ahh.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonefe2ahh.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonehim6lo.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonehim6lo.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonehohte4.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonehohte4.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneieyae9.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneieyae9.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonehu2ir6.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonehu2ir6.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonemekob2.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonemekob2.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneaenai4.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneaenai4.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonexuu5ye.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonexuu5ye.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeeko9a.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeeko9a.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonequivu7.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonequivu7.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonemoog4e.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonemoog4e.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeepee4.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeepee4.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeeh0eu.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeeh0eu.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonephae7o.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonephae7o.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneaoch1f.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneaoch1f.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonewaich2.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonewaich2.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneuos2ei.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneuos2ei.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneiutou8.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneiutou8.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneaheex2.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneaheex2.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneooj1ri.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneooj1ri.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneaxoo7r.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneaxoo7r.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneva7mum.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneva7mum.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonevie6mo.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonevie6mo.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneyeich6.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneyeich6.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonequo2ao.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonequo2ao.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeeroo4.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeeroo4.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonenahqu7.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonenahqu7.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonesu3aze.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonesu3aze.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneveiqu8.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneveiqu8.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonefohy1w.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonefohy1w.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonefee3na.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonefee3na.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonesie0oo.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonesie0oo.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonemee0ph.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonemee0ph.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneeec1ch.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneeec1ch.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzonetei7fa.mathieu-pechovitch.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzonetei7fa.mathieu-pechovitch.sb.uclllabs.be";
+	notify yes;
+};

@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.mathieu-pechovitch.sb.uclllabs.be. admin.mathieu-pechovitch.uclllabs.be. (
-			     2301    ; Serial
+			     2412    ; Serial
 			   3600		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -25,7 +25,7 @@ secure					IN	A	193.191.177.174
 supersecure				IN	A	193.191.177.174
 
 ; _acme-challenge				IN	TXT	Lb7E0XUofSIM-rNRM4t4BO4eb6Si3dJgwE6_lxhXvus
-_acme-challenge.secure.mathieu-pechovitch.sb.uclllabs.be	IN	TXT	Lb7E0XUofSIM-rNRM4t4BO4eb6Si3dJgwE6_lxhXvus
+; _acme-challenge.secure.mathieu-pechovitch.sb.uclllabs.be	IN	TXT	Lb7E0XUofSIM-rNRM4t4BO4eb6Si3dJgwE6_lxhXvus
 ; _acme-challenge.supersecure		IN	TXT	Lb7E0XUofSIM-rNRM4t4BO4eb6Si3dJgwE6_lxhXvus
 
 ;hosts
@@ -198,3 +198,108 @@ subzoneout1sh	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
 subzonewooch7	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
 subzoneeeko9j	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
 subzonegoph1a	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneaht6sh	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonefae8su	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneyaib6k	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneoomul3	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonexa1gah	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonelieke2	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeetho1	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneohd9ie	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneush6ie	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneuok2of	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonenaiz4j	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonecoole4	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneyia6wa	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneozie0n	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonevop6ux	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonevahgh7	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonevei2ie	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneyohl9u	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonecaj9oo	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonedi4mee	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeegh3r	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneiew8uy	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonelu5cho	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneohf0qu	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonejoiqu9	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeav9ie	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonedo8cae	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonenoh7ep	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneieb9ei	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneooshe2	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonebeem6a	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonezai7ai	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonema0je6	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonedahng7	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonenulo9n	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneook4ye	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeeboo7	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonejee5oh	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonewi0die	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonepax3ai	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneyi1hof	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneaw4lo4	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneoch5ku	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneied1ci	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneoongi8	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonehue0ch	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonenee4ue	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonegoon8l	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneoovii8	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneoe2jee	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneouj9we	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonetie4ae	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonethaes5	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonethoh7c	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonesha1ua	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonequu1po	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonequo2ie	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonekie3ne	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonephue8v	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneaisae0	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneieth6i	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonezoh0ae	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonetheiw9	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonehiep7e	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonecaep1f	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneetohh6	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonegai0ae	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeishu8	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneshath4	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonefe2ahh	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonehim6lo	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonehohte4	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneieyae9	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonehu2ir6	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonemekob2	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneaenai4	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonexuu5ye	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeeko9a	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonequivu7	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonemoog4e	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeepee4	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeeh0eu	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonephae7o	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneaoch1f	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonewaich2	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneuos2ei	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneiutou8	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneaheex2	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneooj1ri	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneaxoo7r	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneva7mum	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonevie6mo	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneooc3ae	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneyeich6	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonequo2ao	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeeroo4	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonenahqu7	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonesu3aze	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneveiqu8	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonefohy1w	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonefee3na	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonesie0oo	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonemee0ph	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeec1ch	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonetei7fa	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
