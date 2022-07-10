@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.mathieu-pechovitch.sb.uclllabs.be. admin.mathieu-pechovitch.uclllabs.be. (
-			     2412    ; Serial
+			     2424    ; Serial
 			   3600		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -303,3 +303,14 @@ subzonesie0oo	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
 subzonemee0ph	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
 subzoneeec1ch	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
 subzonetei7fa	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneaa1eif	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneaemoh0	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+foobar	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneeiba3e	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzoneoov4ep	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+foobar2	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonejah8de	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+foobar3	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonejai1do	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+foobar4	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+subzonexohth2	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.

@@ -1,6 +1,6 @@
 $TTL	300
-@	IN	SOA	ns.mathieu-pechovitch.sb.uclllabs.be test2.mathieu-pechovitch.sb.uclllabs.be.(
-		 2020110804	; Serial
+@	IN	SOA	ns.mathieu-pechovitch.sb.uclllabs.be subzoneaa1eif.mathieu-pechovitch.sb.uclllabs.be.(
+		 2020110801	; Serial
 			300	; Refresh
 			300	; Retry
 			300	; Expire

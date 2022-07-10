@@ -1,31 +1,39 @@
 #! /bin/bash
-if [ -z "$1" ]; then
-printf "Add a string after the command"
+if [ -z "$1" ]; 
+then
+printf "Please add a subzone-name after the command"
 else
+
+#settings toevoegen aan nieuwe zone file
 echo "\$TTL	300
 @	IN	SOA	ns.mathieu-pechovitch.sb.uclllabs.be $1.mathieu-pechovitch.sb.uclllabs.be.(
-		 2020110801	; Serial
-			300	; Refresh
-			300	; Retry
-			300	; Expire
-			300)	; Negative Cashe TTL
-; A records for name servers
+		  	114002	; Serial
+			400	; Refresh
+			400	; Retry
+			400	; Expire
+			400)	; Negative Cashe TTL
+;name servers
 @	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be.
+
+;A-records
 ns	IN	A	193.191.177.174
 @	IN	A	193.191.177.174" > /etc/bind/zones/$1.mathieu-pechovitch.sb.uclllabs.be
+
+#zone info toevoegen aan bestaande mrt-zones config file
 echo -e "
-zone \"$1.mathieu-pechovitch.sb.uclllabs.be\"{
+	zone \"$1.mathieu-pechovitch.sb.uclllabs.be\"{
 	type master;
 	file \"/etc/bind/zones/$1.mathieu-pechovitch.sb.uclllabs.be\";
 	notify yes;
 };" >> /etc/bind/named.conf.mrt-zones
 
+#record van nieuwe zone toevoegen aan main DB-file
 echo -e "$1	IN	NS	ns.mathieu-pechovitch.sb.uclllabs.be." >> /etc/bind/zones/db.mathieu-pechovitch.sb.uclllabs.be
-SERIAL_NUM=$(grep -Po '\d+(?=\s+; Serial)' /etc/bind/zones/db.mathieu-pechovitch.sb.uclllabs.be) 
-SERIAL_LIN=$(grep -Po '\s+; Serial' /etc/bind/zones/db.mathieu-pechovitch.sb.uclllabs.be)
-SERIAL_ALL=$(grep -Po '\d+\s+; Serial' /etc/bind/zones/db.mathieu-pechovitch.sb.uclllabs.be)  
-NEW_NUM=$(("$SERIAL_NUM" + 1)) 
-sed -i "s/$SERIAL_ALL/$NEW_NUM$SERIAL_LIN/g" /etc/bind/zones/db.mathieu-pechovitch.sb.uclllabs.be
 
+#verhoog serial waarde met 1
+SERIAL=$(grep -Po '\d+(?=\s+; Serial)' /etc/bind/zones/db.mathieu-pechovitch.sb.uclllabs.be)
+perl -i -pe "s/$SERIAL/$(("$SERIAL" + 1))/g" /etc/bind/zones/db.mathieu-pechovitch.sb.uclllabs.be
+
+#herstart DNS
 systemctl restart bind9
 fi
